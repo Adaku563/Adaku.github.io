@@ -1,0 +1,53 @@
+body,
+html{
+	width: 100px,
+	height: 100px;
+	font-family:'Open Sans Condensed', sans-serif; 
+  background: url(download.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+h1{
+	font-size: 3rem;
+	color: #eeeeee;
+}
+
+hr{
+	border-color: #F05F44;
+	border-width: 3px;
+	max-width: 65px;
+
+}
+
+.buffer{
+	height: 9rem;
+}
+.btn{
+	font-weight: 400;
+	border-radius: 80px;
+	text-transform: uppercase;
+}
+
+.btn-primary{
+	background-color: #F05F44;
+	border-color:  #F05F44;
+}
+
+.btn-primary:hover{
+	background-color: #ee4b08;
+    border-color:  #F05F44;
+    border-width: 4px;
+}
+
+.btn-xl{
+	padding: 1rem;
+
+} 
+
+.container{
+	text-align: center;
+	margin-top: 8rem;
+}
